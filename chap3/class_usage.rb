@@ -4,10 +4,10 @@ class Ticket
     @row = row
   end
 
-  def price 
+  def price
     case @row
     when 1..10
-      return 123
+      123
     when 11..20
       return 234
     else

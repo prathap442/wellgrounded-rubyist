@@ -13,3 +13,11 @@
     include Kernel
   end
   ```
+  * what happens with the case when the same module is included multiple times in the class
+  ```
+  class C
+    include M
+    include N
+  end
+  
+  ```

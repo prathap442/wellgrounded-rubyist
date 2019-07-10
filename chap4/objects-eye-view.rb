@@ -28,3 +28,4 @@ obj.report
   Does M define a report method?
   Yes.
 =end
+
